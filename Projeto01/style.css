@@ -34,11 +34,14 @@ nav{
 
 main{
     max-width: 1040px ;
-    padding: 0px20px;
+    padding: 0px ;
     margin: auto;
     margin-bottom: 30px;
     background-color: #FFFFFF;
-    line-height: 2; 
+    line-height: 2;    
+}
+main img{
+    width: 100%;
 }
 
 section{
@@ -86,15 +89,7 @@ p{
 a>b{
     color:#063A1D;
     background-color: #84E2AE;
-}
-
-span:hover>a{
-    background-color: #2FA866;
-    color:#063A1D;
-    padding: 10px;
-    border-radius: 5px;
-    
-   
+    padding: 2px;
 }
 
 a{
@@ -103,7 +98,7 @@ a{
     padding: 10px;
 }
 
-section>b:hover{
+a:hover{
     text-decoration: underline;
     color:#063A1D;
 }
@@ -126,7 +121,7 @@ section>b:hover{
     font-size: 16px;
     font-weight: bold;
     padding: 0px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.363);
+   
 }
 
     .video {
@@ -145,4 +140,6 @@ section>b:hover{
         width: 100%;
         height: 100%;
     }
+main img{
+    width: 100%;
 }
