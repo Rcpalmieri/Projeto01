@@ -68,7 +68,7 @@ h2{
     text-indent: 0px;
 }
 
-h3{
+h3.seção2{
     background-image:linear-gradient(to right,#84E2AE,#FFFFFF);
     font-family: idroid;
     font-size: 1.3em;
@@ -145,4 +145,30 @@ section>b:hover{
         width: 100%;
         height: 100%;
     }
-}
+    .seçãofinal{
+        background-color: #86e1ad;
+    }
+    td{
+        max-width: 600px;
+
+    }
+
+    #seção3{
+        font-family: Arial, Helvetica, sans-serif;
+        color:#FFFFFF;
+        background-color: #1A5C37;
+    }
+    aside > ul {
+        list-style-type: '\2714\00A0\00A0';
+        list-style-position: inside;
+        columns: 2;
+    }
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
